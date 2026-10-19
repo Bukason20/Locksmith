@@ -54,3 +54,98 @@ nav button {
   padding: 0.4rem 2rem;
   cursor: pointer;
 }
+
+/* ---------------HERO SECTION--------------------- */
+#hero-section {
+  /* background-image: url(./images/HeroBg.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* position: relative; */
+}
+
+#hero-section > div {
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  /* text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white; */
+
+  padding: 3rem 2rem;
+  max-width: 600px;
+}
+
+#hero-section > div > h1 {
+  /* color: gold;
+  font-size: 1.2rem;
+  letter-spacing: 0.3rem; */
+}
+
+#hero-section > div > p {
+  /* font-size: 3rem;
+  text-transform: capitalize;
+  line-height: 4rem;
+  margin: 1rem 0; */
+}
+
+#hero-section > div > button {
+  color: black;
+  font-weight: 400;
+  background-color: gold;
+  padding: 0.7rem 2rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.quote-cont {
+  background-color: white;
+  padding: 2rem;
+  max-width: fit-content;
+  margin: auto;
+  transform: translateY(-60px);
+  box-shadow:
+    0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+}
+
+.quote-cont > h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.quote-cont form {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-cont form input,
+.quote-cont form select {
+  background-color: rgb(232, 232, 232);
+  width: 100%;
+  outline: none;
+  padding: 0.6rem;
+}
+
+.quote-cont form button {
+  background-color: rgb(6, 6, 53);
+  color: white;
+  width: 100%;
+  padding: 0.6rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+}
